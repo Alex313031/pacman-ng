@@ -1,0 +1,19 @@
+[
+    "main",
+    "Menu::show()",
+    "Menu::draw(bool)",
+    "MenuMain::show()",
+    "MenuOptions::show()",
+    "MenuOptions::handleSelection()",
+    "MenuAbout::draw(bool)",
+    "MenuMain::handleSelection()",
+    "Menu::eventloop()",
+    "HighscoreList::show(bool, bool)",
+    "HighscoreList::draw(bool, bool)",
+    "Labyrinth::resetLevel(int)",
+    "SDL_Delay",
+    "GLES2_RenderPresent",
+    "Emscripten_GLES_SwapWindow",
+    "Emscripten_UpdateWindowFramebuffer",
+    "dynCall_v"
+]

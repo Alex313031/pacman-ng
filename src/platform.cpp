@@ -8,7 +8,7 @@
 
 void getFilePath(char filePath[], const char file[]) {
      char installDir[256];
-#if WINDOWS
+#if WINDOWS || __EMSCRIPTEN__
          strcpy(installDir, "");
 #else
          strcpy(installDir, PACKAGE_DATA_DIR "/");
