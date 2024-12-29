@@ -12,3 +12,5 @@ src/pacman
 src/.deps
 config.log
 config.status
+
+stamp-h1
