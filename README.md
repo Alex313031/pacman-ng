@@ -1,14 +1,10 @@
-Pacman-ng
+Pacman-ng &nbsp;<img src="./data/gfx/title_pacman.png" width="32">
 ========================================================================
 
-![in-game screenshot](./screenshot.png "in-game screenshot")
+![in-game screenshot](./screenshot.png "In-Game Screenshot")
 
-This is a clone of the original pacman by Namco, as I remember, that I played for the first time on an Atari 130 XL in the early 90s.
-
-Also, Paul Neave's pacman clone has inspired me greatly.
-
-One of the main goals of this implementation is an SDL application with a very low CPU usage.
-
+This is a fork of @ebuc99 Pacman clone, compiler optimized and ported for the Web.
+The original readme is towards the bottom.
 
 ## Building ##
 
@@ -41,12 +37,20 @@ Inside the pacman-ng directory, run
 ./autogen.sh
 ./configure
 make
-make install
+sudo make install
 ```
 
 For more detailed instructions, you may also have a look at the [INSTALL](https://github.com/Alex313031/pacman-ng/blob/master/INSTALL) file.
 
 After a successful installation, you should be able to start the game via the command line: `./pacman`
+
+## Original Readme ##
+
+"This is a clone of the original pacman by Namco, as I remember, that I played for the first time on an Atari 130 XL in the early 90s.
+
+Also, Paul Neave's pacman clone has inspired me greatly.
+
+One of the main goals of this implementation is an SDL application with a very low CPU usage."
 
 ## License ##
 Pacman-ng is licensed under the terms of the GNU General Public License version 3 (or any later version).
